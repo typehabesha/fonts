@@ -7,9 +7,9 @@ on:
   pull_request:
     paths:
       - ".github/workflows/report.yaml"
-  schedule:
+  # schedule:
     # Every day at 12am
-    - cron: "0 0 * * *"
+  #  - cron: "0 0 * * *"
 
 jobs:
   gen_report:
